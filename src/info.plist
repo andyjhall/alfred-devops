@@ -27,7 +27,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>DevOps</string>
+	<string>Devops Repos</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -63,9 +63,9 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>127</integer>
 				<key>keyword</key>
-				<string>ops</string>
+				<string>devops</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -75,9 +75,9 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Fetching DevOps repos...</string>
+				<string>Fetching repos...</string>
 				<key>script</key>
-				<string>python devops.py "{query}"</string>
+				<string>python3 devops.py "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -85,7 +85,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Search for DevOps repos</string>
+				<string>Search for repos</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -100,26 +100,22 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Setup and Usage
-
-* Generate a personal access token
-* Update env variables as required
-* search for projects with `ops &lt;search&gt;`</string>
+	<string></string>
 	<key>uidata</key>
 	<dict>
 		<key>478E5903-DF13-4546-8719-5E29A53D6016</key>
 		<dict>
 			<key>xpos</key>
-			<integer>425</integer>
+			<integer>740</integer>
 			<key>ypos</key>
-			<integer>90</integer>
+			<integer>100</integer>
 		</dict>
 		<key>CC12EF8B-97E2-4DA6-989E-6E766336576D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<integer>95</integer>
+			<integer>150</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -132,7 +128,7 @@
 		<string></string>
 	</dict>
 	<key>version</key>
-	<string>1.0</string>
+	<string>3.0.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
